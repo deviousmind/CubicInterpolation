@@ -108,7 +108,7 @@
             this.Controls.Add(this.BicubicButton);
             this.Controls.Add(this.DrawImageButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Image Interpolation";
             ((System.ComponentModel.ISupportInitialize)(this.Images)).EndInit();
             this.ResumeLayout(false);
 
