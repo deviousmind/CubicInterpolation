@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.DrawImageButton = new System.Windows.Forms.Button();
             this.BicubicButton = new System.Windows.Forms.Button();
             this.Images = new System.Windows.Forms.PictureBox();
@@ -107,6 +108,7 @@
             this.Controls.Add(this.Images);
             this.Controls.Add(this.BicubicButton);
             this.Controls.Add(this.DrawImageButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Image Interpolation";
             ((System.ComponentModel.ISupportInitialize)(this.Images)).EndInit();
